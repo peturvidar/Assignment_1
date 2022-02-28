@@ -9,20 +9,29 @@
 </head>
 
 <body>
-    <p>
     <h1>BeerMe registration form</h1>
-    </p>
-    <div>
-        <ul>
-            <li> Name <input type="text"></li>
-            <li>Age <input type="text"></li>
-            <li> Weight <input type="text"></li>
-            <li> Sex male<input type="checkbox">female<input type="checkbox">other<input type="checkbox"> </li>
-            <li> Bio <input type="text" style="font-size:10pt;height:200pt"></li>
-        </ul>
+        <div>
+        <form>
+            <div>
+                <input type="text" placeholder="Name">
+                <input type="number" placeholder="Age">
+                <input type="number" placeholder="Weight">
+            </div>
+            <br>
+            <div>
+
+                <input type="radio" name="gender" id="gender_male"><label for="gender_male">male</label>
+                <input type="radio" name="gender" id="gender_female"><label for="gender_female">female</label>
+                <input type="radio" name="gender" id="gender_other"><label for="gender_other">other</label>
+            </div>
+            <br>
+            <div><input type="email" placeholder="Email myname@server.com"></div><br>
+            <div><textarea name="bio" id="bio" cols="30" rows="10" placeholder="Write a short bio about yourself"></textarea></div>
+        </form>
 
 
     </div>
+    <br>
     <input type="submit">
 </body>
 

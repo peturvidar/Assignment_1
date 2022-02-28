@@ -1,0 +1,38 @@
+
+     table {
+        border: solid 1px #000000;
+        background-color: #d8560b;
+        border-collapse: collapse;
+        border-spacing: 0;
+    }
+
+    table tr th {
+        border: solid 1px #000000;
+    }
+
+    table tr td {
+        border: solid 1px #000000;
+    }
+    th, td {
+        padding: 5px;
+    }
+
+    h1 {
+        background-color: #2615c4;
+        color: #f7f0f0;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    h2 {
+        background-color: #7a5d5d;
+    }
+
+    h3 {
+        background-color: #9ce9af;
+    }
+
+    p {
+        background-color: #ddc0c7;
+        font-family:cursive;
+    }
+
